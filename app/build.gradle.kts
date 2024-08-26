@@ -75,6 +75,7 @@ dependencies {
     implementation (libs.play.services.auth)
     implementation (libs.ui)
     implementation(libs.firebase.firestore.ktx)
+    implementation(libs.play.services.cast.framework)
 
 
 

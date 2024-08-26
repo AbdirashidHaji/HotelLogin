@@ -136,6 +136,13 @@ fun LoginScreen(navController: NavController){
 
 
                 Spacer(modifier = Modifier.height(16.dp))
+                Button(
+                    onClick = { navController.navigate(Screens.HotelLoginScreen.route) },
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text("Don't have an account? Sign Up")
+                }
+
 
                 // Display error or success message
                 errorMessage?.let {
