@@ -1,5 +1,6 @@
 package com.example.hotelloginsystem.utils
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.widget.Toast
 import androidx.lifecycle.ViewModel
@@ -42,6 +43,7 @@ class SharedViewModel() : ViewModel() {
     }
 
 
+    @SuppressLint("SuspiciousIndentation")
     fun retrieveData(
         userID:String,
         context: Context,

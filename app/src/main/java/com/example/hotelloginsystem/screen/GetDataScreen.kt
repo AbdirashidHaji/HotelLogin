@@ -1,7 +1,5 @@
 package com.example.hotelloginsystem.screen
 
-import android.graphics.drawable.Icon
-import android.widget.NumberPicker.OnValueChangeListener
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -24,16 +22,12 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.hotelloginsystem.utils.SharedViewModel
 import com.example.hotelloginsystem.utils.UserData
-import com.google.api.Context
-import kotlinx.coroutines.Job
 
 
 @Composable
